@@ -1,5 +1,5 @@
 # TEPs-MEPs
-# Do TMS evoked responses measured from scalp and hand represent the same cortical mechanisms?
+## Do TMS evoked responses measured from scalp and hand represent the same cortical mechanisms?
 
 Please read our paper, and if you use this code, please cite our paper:
 
@@ -17,9 +17,9 @@ Please create a directory in the root directory of this repository and call it *
 
 Each file has an experiment ID (_Biphasic; _Monophasic) at the end of its name. Save the files into their the corresponding folders in Inputs directory and remove the ID of the file. (e.g., save TEPs_Biphasic.mat into Inputs > Biphasic folder and rename it to TEPs.mat). There is one file called **neighbour_template.mat** that shoulde be saved into both Biphasic and Monophasic folders. 
 
-The data provided here are the results of pre-processing pipeline. The code for pre-processing is available at [this github repository](https://github.com/BMHLab/TEPs-PEPs). If you require the raw data please contact [Mana Biabani](mailto:mana.biabanimoghadam@monash.edu)
+The data provided here are the results of pre-processing pipeline. The code for pre-processing is available at [this github repository](https://github.com/BMHLab/TEPs-PEPs). If you require the raw data please contact [Mana Biabani](mailto:mana.biabanimoghadam@monash.edu).
 
 ### Data processing
 After retrieving data, all of the processing analyses done for this project can be carried out by running processingPipeline_MB.m. This script is located in the Code folder. Before starting the analysis move both processingPipeline_MB.m and AddPaths.mat to the root repository (TEPs-MEPs folder). The script takes the clean data from a selected experiment (Biphasic or Monophasic) in Inputs, runs each analysis step and saves the outputs of each step to the corresponding folder in Outputs.
 
-In case of any questions please contact [Mana Biabani](mailto:mana.biabanimoghadam@monash.edu)
+In case of any questions please contact [Mana Biabani](mailto:mana.biabanimoghadam@monash.edu).
