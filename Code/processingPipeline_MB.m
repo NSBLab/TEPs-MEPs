@@ -29,7 +29,7 @@
 % 2) Make a folder within Inputs and Outputs folders for each ID
 % 3) Name it as the ID of the experiment ('Biphasic' or 'Monophasic' )
 % 4) Save the MEP files to their corresponding folder
-% 5) Move this script (preprocessingPipleline_MB.mat and AddPaths to the root path)
+% 5) Move this script (preprocessingPipleline_MB.m) and AddPaths.m to the root path
 
 % 2) Run the function: simply runs the function to do the nalysis for each section using the specified options.
 % The functions can be used for other similar studies using the study-specific variables as "Options".
