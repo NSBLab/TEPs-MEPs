@@ -228,7 +228,7 @@ tepCond = 'high'; % Options for Biphasic = low, high; Options for Monophasic = r
 preStim = 1000; % Options : 100 (for sspsir-filtered) , 1000 (for unfiltered TEPs) ***
 
 % Length of TEP time window to examine
-winLength = 250;
+winLength = 300;
 
 % Define a Percentage of Max Linkage as the Clustering Threshold
 Pr = 0.6;
