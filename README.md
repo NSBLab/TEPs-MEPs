@@ -1,9 +1,9 @@
 # TEPs-MEPs
-## Do TMS evoked responses measured from scalp and hand represent the same cortical mechanisms?
+## The correspondence between EMG and EEG measures of changes in cortical excitability following transcranial magnetic stimulation
 
 Please read our paper, and if you use this code, please cite our paper:
 
-M.Biabani, A.Fornito, J.Coxon, B.Fulcher, N.Rogasch. [Do TMS evoked responses measured from scalp and hand represent the same cortical mechanisms?].
+M.Biabani, A.Fornito, J.Coxon, B.Fulcher, N.Rogasch. [The correspondence between EMG and EEG measures of changes in cortical excitability following transcranial magnetic stimulation].
 
 This repository provides the code for reproducing a range of analyses on EEG and EMG signals recorded in response to transcranial magnetic stimulation (TMS) over motor cortex. The pipeline runs a set of analyses exploring how cortical responses to TMS measured by EMG (MEPs evoked by paired-pulse TMS) and EEG (TEPs elicited by single-pulse TMS) relate in shape and amplitude. 
 
