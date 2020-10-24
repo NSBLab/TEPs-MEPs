@@ -15,7 +15,7 @@ In order to reproduce data used in this project please download the data from [t
 
 Please create a directory in the root directory of this repository and call it **TEPs-MEPs**. Within this directory create two more directories: **Inputs** and **Outputs** and in each one again create two more directories: **Biphasic** and **Monophasic**.
 
-Each file has an experiment ID (_Biphasic; _Monophasic) at the end of its name. Save the files into their the corresponding folders in Inputs directory and remove the ID of the file. (e.g., save TEPs_Biphasic.mat into Inputs > Biphasic folder and rename it to TEPs.mat). There is one file called **neighbour_template.mat** that shoulde be saved into both Biphasic and Monophasic folders. 
+Each file has an experiment ID (_Biphasic; _Monophasic) at the end of its name. Save the files into their the corresponding folders in Inputs directory and remove the ID of the file. (e.g., save TEPs_Biphasic.mat into Inputs > Biphasic folder and rename it to TEPs.mat). There is one file called **eeglabChans.mat** that shoulde be saved into Input folder outside Biphasic and Monophasic folders. 
 
 The data provided here are the results of pre-processing pipeline. The code for pre-processing is available at [this github repository](https://github.com/BMHLab/TEPs-PEPs). If you require the raw data please contact [Mana Biabani](mailto:mana.biabani@gmail.com).
 
